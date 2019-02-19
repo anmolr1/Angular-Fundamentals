@@ -14,7 +14,7 @@ export class TestComponent implements OnInit {
 
   ngOnInit() {
   }
-  emitMessage(){
+  emitMessage() {
     //alert('Emit Message');
     this.childEvent.emit('Hello my world app');
   }

@@ -6,10 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  public name="anmol";
-  public title="My App"
-  public message="";
-  getMessage($event){
-   this.message= $event;
+  public name = "anmol";
+  public title = "My App"
+  public message = "";
+
+  getMessage($event) {
+    this.message = $event;
   }
 }
